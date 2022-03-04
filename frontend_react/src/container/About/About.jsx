@@ -3,33 +3,18 @@ import { motion } from 'framer-motion';
 import './About.scss';
 import { images } from '../../constants';
 
-const abouts = [
-  {
-    title: 'Front-end Developer',
-    description:
-      'I am passionate about front-end development and am exposed much to React.',
-    imgUrl: images.about01,
-  },
-  {
-    title: 'Self-motivated',
-    description:
-      'I am a self-motivated person. I always meet the deadline and submit my work with high standards.',
-    imgUrl: images.about02,
-  },
-  {
-    title: 'Team Player',
-    description:
-      'I know what it takes to be a team player and have been a good team player for various projects.',
-    imgUrl: images.about03,
-  },
-  {
-    title: 'Video Editing',
-    description: 'I can edit video contents with editor Filmora X.',
-    imgUrl: images.about04,
-  },
-];
+import { urlFor, client } from '../../client';
 
 const About = () => {
+  const [abouts, setAbouts] = useState([]);
+
+  useEffect(() => {
+    const query = '*[_type == "abouts"]';
+    client.fetch(query).then((data) => {
+      setAbouts(data);
+    });
+  }, []);
+
   return (
     <>
       <h2 className="head-text">
@@ -46,7 +31,7 @@ const About = () => {
             className="app__profile-item"
             key={about.title + index}
           >
-            <img src={about.imgUrl} alt={about.title} />
+            <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
