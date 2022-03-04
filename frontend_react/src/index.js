@@ -1,6 +1,7 @@
-export { default as About } from './About/About';
-export { default as Footer } from './Footer/Footer';
-export { default as Header } from './Header/Header';
-export { default as Skils } from './Skils/Skils';
-export { default as Testimonials } from './Testimonials/Testimonials';
-export { default as Work } from './Work/Work';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import App from './App';
+import './index.css';
+
+ReactDOM.render(<App />, document.getElementById('root'));
