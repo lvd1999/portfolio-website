@@ -44,17 +44,19 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {['Mini Game', 'Web App', 'React JS', 'All'].map((item, index) => (
-          <div
-            key={index}
-            onClick={() => handleWorkFilter(item)}
-            className={`app__work-filter-item app__flex p-text ${
-              activeFilter === item ? 'item-active' : ''
-            }`}
-          >
-            {item}
-          </div>
-        ))}
+        {['Mini Game', 'JavaScript', 'React', 'Experiment', 'All'].map(
+          (item, index) => (
+            <div
+              key={index}
+              onClick={() => handleWorkFilter(item)}
+              className={`app__work-filter-item app__flex p-text ${
+                activeFilter === item ? 'item-active' : ''
+              }`}
+            >
+              {item}
+            </div>
+          )
+        )}
       </div>
 
       <motion.div
@@ -119,6 +121,6 @@ const Work = () => {
 
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
-  'works',
+  'work',
   'app__primarybg'
 );
