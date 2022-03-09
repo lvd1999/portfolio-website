@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div align="center" background-color="white">
   <a href="https://honeybutteralmond.netlify.app/">
-    <img src="./frontend_react/src/assets/name-logo.png" alt="Logo" width="160" height="80">
+    <img src="./frontend_react/src/assets/name-logo.png" alt="Logo" width="250" height="80">
   </a>
 
   <h3 align="center">Portfolio Website</h3>
