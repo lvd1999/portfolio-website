@@ -1,16 +1,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" background-color="white">
-  <a href="https://honeybutteralmond.netlify.app/">
+<!--   <a href="https://honeybutteralmond.netlify.app/">
     <img src="./frontend_react/src/assets/name-logo.png" alt="Logo" width="250" height="80">
-  </a>
+  </a> -->
 
   <h3 align="center">Portfolio Website</h3>
-  <h4 align="center"><a href="honeybutteralmond.netlify.app">honeybutteralmond.netlify.app</a></h4>
+  <h4 align="center"><a href="https://honeybutteralmond.netlify.app/">honeybutteralmond.netlify.app</a></h4>
 
 </div>
 
-🎊 Welcome to my very own portfolio website 🎊
+🎊 Welcome to my very own portfolio website. 🎊
 
 
 ### 🔧 Built With
