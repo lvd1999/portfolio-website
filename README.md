@@ -2,11 +2,11 @@
 <br />
 <div align="center">
   <a href="https://honeybutteralmond.netlify.app/">
-    <img src="./frontend-react/src/assets/name-logo.png" alt="Logo" width="160" height="80">
+    <img src="./frontend_react/src/assets/name-logo.png" alt="Logo" width="160" height="80">
   </a>
 
   <h3 align="center">Portfolio Website</h3>
-  <h2 align="center">[🔗 honeybutteralmond.netlify.app](honeybutteralmond.netlify.app)</h2>
+  <h4 align="center"><a href="honeybutteralmond.netlify.app">honeybutteralmond.netlify.app</a></h4>
 
 </div>
 
