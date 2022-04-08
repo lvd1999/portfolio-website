@@ -6,7 +6,7 @@
   </a> -->
 
   <h3 align="center">Portfolio Website</h3>
-  <h4 align="center"><a href="https://honeybutteralmond.netlify.app/">honeybutteralmond.netlify.app</a></h4>
+  <h4 align="center"><a href="https://www.honeybutteralmond.com">www.honeybutteralmond.com</a></h4>
 
 </div>
 
